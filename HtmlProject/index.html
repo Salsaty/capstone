@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petition</title>
+</head>
+<body>
+  <h1>Be the change in your community</h1>
+  <a href="https://www.oaklandca.gov/Public-Safety-Streets/Streets/Keep-Oakland-Clean-and-Beautiful"><img src="Litter.jpeg" alt=""></a>
+  <form action="results.html" method="get">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" value="" required><br><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="10" max="110" required>
+        <br><br>
+         <p>Do you live in Oakland?</h2>
+        <label><input type="radio" name="Oakland?" value="yes"> Yes</label>
+        <label><input type="radio" name="Oakland?" value="no"> No</label>
+        <label><input type="radio" name="Oakland?" value="prefer not to say"> Prefer not to say</label>
+        <br><br>
+        <label for="support">How would you like to help?</label>
+        <select id="support" name="support" required>
+<option value="" disabled selected>Select an option</option>
+<option value="volunteer">Volunteer</option>
+<option value="donate">Donate</option>
+<option value="spread">Spread awareness</option>
+<option value="all">All of the above</option>
+</select><br><br>
+    <label for="comment">Comment (optional):</label><br>
+    <textarea id="comment" name="comment" placeholder="Anything you would like us to know" rows="4" cols="50"></textarea><br><br>
+
+    
+    <input type="submit" value="Sign Petition">
+  </form>
+  <a href="index.html"></a>
+  
+ 
+</body>
+</html>
